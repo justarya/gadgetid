@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  font-size: 18px;
+  padding: 5px;
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 0;
+  max-width: 350px;
+  width: 100%;
+}
+textarea {
+  font-size: 18px;
+  padding: 5px;
+  border: 0;
+  border: 1px solid #000;
+  outline: 0;
+  max-width: 350px;
+  width: 100%;
+}
+form {
+  padding: 80px 30px;
+}
+.form__title {
+  margin-top: 30px;
+  font-size: 35px;
+}
+.form__input input {
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+.form__input input[type="submit"] {
+  outline: 0;
+  cursor: pointer;
+  width: auto;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background: transparent;
+  color: black;
+  font-weight: bold;
+  transition: 0.1s;
+}
+.form__input textarea {
+  outline: 0;
+  max-width: 450px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  background: transparent;
+  color: black;
+  font-weight: bold;
+  transition: 0.1s;
+}
+.form__input input[type="submit"]:hover {
+  transition: 0.1s;
+  background: black;
+  color: white;
+}
+.form__info p {
+  font-size: 18px;
+}
+.form__pemisah {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.button {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+.button:hover {
+  background: black;
+  color: white;
+  transition: 0.1s;
+}
+.button--back i::before {
+  transform: rotate(180deg);
+}
+
+.alert{
+  padding: 20px 0 10px 0;
+}
+.alert-danger{
+  color: red;
+}
